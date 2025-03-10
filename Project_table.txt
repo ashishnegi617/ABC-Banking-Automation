@@ -1,0 +1,29 @@
+Database Name :SQLite
+
+Table-1
+--------
+    Name=users
+    
+    Fields/Columns 
+        1. users_accno.     integer  primary key autoincrement
+        2. users_name       text
+        3. users_pass       text        
+        4. users_mob        text    unique key
+        5. users_email      text    unique key  
+        6. users_bal        float
+        7. users_adhar      text    unique key
+        8. users_open       text/date 
+
+Tabel-2
+--------
+    Name=Txn
+
+    Fields/Columns
+        1. txn_id           integer primary key  autoincrement
+        2. txn_acno         int 
+        3. txn_type         text
+        4. txn_amt          float
+        5. txn_bal          float   
+        7. txn_date         text
+
+#int and integer both are same but when we use autoincrement that time integer pe chalta hai naa ki int pe btw both are interchangable
